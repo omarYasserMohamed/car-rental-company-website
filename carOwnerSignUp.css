@@ -1,0 +1,154 @@
+::placeholder{
+    color: black;
+    font-size: 15px;
+}
+*{
+    background-color: black;
+}
+#car{
+    width:130px;
+    height:65px;
+    background:transparent url() no-repeat center center;
+    background-size:100%;
+    position:absolute;
+    -webkit-animation: background 12s infinite normal;
+    color: red;
+}
+
+@-webkit-keyframes background {
+    0% { top:50px; left:50px; }
+    
+    100% { top:50px; left:350px; }
+}
+
+h1{
+    text-align:center;
+    
+    margin:-10px;
+    margin-bottom: 0px;
+    padding:20px;
+    border:none;
+     font-family:fantasy;
+    font-size: 60px;
+    color: white; 
+    top: 7px;
+    
+}
+#qoute{
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    color: white;
+    left:650px;
+    font-family:cursive;
+    font-size: 20px;
+    color: yellow;
+}
+#signupForm{
+    position: absolute;
+    right: 20px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+}
+aside{
+    background-color: black;
+}
+h2{
+    position: absolute;
+    color: white;
+    font-size:50px;
+    left:730px;
+    top: 90px;
+}
+input{
+    height: 30px;
+}
+#first_name{
+
+    position: absolute;
+    background-color: white;
+    left:600px;
+    top: 190px;
+    height: 20px;
+}
+#last_name{
+    position: absolute;
+    background-color: white;
+    left:880px;
+    top: 190px;
+    height: 20px;
+
+}
+#phoneNumber{
+    position: absolute;
+    background-color: white;
+    left:880px;
+    top: 240px;
+    height: 20px;
+
+}
+
+#address{
+    position: absolute;
+    background-color: white;
+    left:600px;
+    top: 240px;
+    height: 20px;
+}
+#nationalid{
+    position: absolute;
+    background-color: white;
+    left:600px;
+    top: 290px;
+    height: 20px;
+}
+
+#email{
+    position: absolute;
+    background-color: white;
+    left:880px;
+    top: 290px;
+    height: 20px;
+}
+#username{
+    position: absolute;
+    background-color: white;
+    left:600px;
+    top: 350px;
+    height: 20px;
+}
+#password{
+     position: absolute;
+    background-color: white;
+    left:880px;
+    top: 350px;
+    height: 20px;
+}
+#signupbutton{
+    position: absolute;
+    left:770px;
+    top: 390px;
+    background-color: blue;
+    border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+
+
+
+}
+button:hoover{
+background-color: red;
+}
+#copyrights{
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    color:white;
+}
